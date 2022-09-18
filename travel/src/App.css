@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2B283A;
+  font-size: 0.8rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {margin: 0;}
+
+.navbar{
+  display: flex;
+  background: #F55A5A;
+  height: 55px;
+  padding: .5em;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  font-size: 0.9rem;  
+}
+
+.navbar > i{
+  font-size: 24px;
+  padding-right: 6px;     
+}
+
+.trip {
+  margin: 1em auto;
+  padding: 0 2em;
+  display: flex;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  border-bottom:  2px solid #F5F5F5;
+  max-width: 600px;
+}
+
+
+.trip:last-child {
+  border-bottom: none;
+}
+
+.trip-data {
+   padding: 1em;
+}
+
+.trip-img{
+  height: 170px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.trip-location{
+  display: flex;
+  align-items: center;
+}
+
+.trip-location > i{
+  color: #F55A5A;
+  margin-right: 4px;
+}
+
+.trip-location > p {
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+}
+
+.trip-location > a {
+   color: #918E9B;
+   margin-left: 12px;
+}
+
+.trip-title {
+  font-size: 1.56rem;
+  margin-bottom: 10px;
+}
+
+.trip-date {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.trip-description {
+  max-width: 500px;
+} 
